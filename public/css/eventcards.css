@@ -1,0 +1,150 @@
+body {
+    background-image:url('/images/seminar.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section::content {
+    background-color: #47060B;
+}
+
+.headline-events {
+    height: 250px;
+    border-radius: 12px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline-events h1, p {
+    color: white;
+}
+
+.card {
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(128, 0, 0, 0.5);
+}
+
+.event-container {
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.event-container h1 {
+    color: #47060B;
+}
+
+.event-container p {
+    color: #9C565B;
+}
+
+.card-img-top {
+    width:100%; 
+    height: 200px; 
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.03);
+}
+
+.card-img-overlay {
+    display: flex;
+    justify-content: flex-end;  
+    align-items: flex-start;
+    padding: 0.5rem; 
+    pointer-events: none;
+}          
+
+.price-tag {
+    background-color: wheat;
+    color: maroon;   
+    font-size: 12px;                      
+    padding: 5px 10px;                   
+    border-radius: 14px;                  
+    font-weight: bold;                    
+    display: inline-block;               
+}
+
+.description {
+    min-height: 50px;
+    max-height: 50px;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body h5 {
+    color: #47060B; 
+}
+
+.second-container {
+    display: flex;
+    border: 1px solid black;
+}
+
+.second-container img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.register-buttons {
+    display: flex;
+    gap: 100px;
+}
+
+.card-body .view-participate-button {
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+    border: 1px solid rgb(205, 204, 204);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.card-body .view-details-button {
+    background-color: #F9F8F5;
+    border: 1px solid rgb(205, 204, 204);
+    color: maroon;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 20px 8px 20px;
+    text-decoration: none;
+    height: 42px;
+}
+
+
+.card-body .view-details-button:hover {
+    cursor: pointer;
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+    color: white;             
+}
+
+.card-body .location {
+    max-height: 10px;
+    min-height: 10px;
+}
+
+.search-area {
+  background: rgba(255, 255, 255, 0.15); 
+  border-radius: 18px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px 20px 4px 20px;
+  margin-top: 20px;
+}
+

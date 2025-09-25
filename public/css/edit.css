@@ -1,0 +1,117 @@
+section::content {
+    background-color: #ffffff;
+}
+
+.edit-header .logout-btn {
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 10px 15px 10px 15px;
+}
+
+.edit-header .logout-btn:hover {
+    background-color: rgb(233, 232, 232);
+}
+
+.edit-profile h2,
+.edit-profile p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-profile-label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.edit-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-form form {
+    width:60%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border:1px solid rgb(192, 192, 192);
+}
+
+.edit-form button {
+    width: 50%;
+    background-color: maroon;
+    border: none;
+    border-radius: 6px;
+}
+
+.edit-form .row .col-md-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-form input {
+    width: 80%;
+    height: 40px;
+    border-radius: 6px;
+    background-color:#F9F8F8;
+    border: 1px solid #ededed;
+} 
+
+.edit-profile-button {
+    color: white;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+    cursor: pointer;
+}
+
+.edit-profile-button:hover {
+    background: linear-gradient(to right, #d56783,#a9415b, #6a0f26);
+}
+
+.password-section {
+    display: none;
+}
+
+#togglePassword:checked ~ .password-section {
+    display: block;
+}
+
+#togglePassword:checked ~ .password-section .password-items input{
+    width: 340px;
+    height: 40px;
+    border-radius: 6px;
+    background-color:#F9F8F8;
+    border: 1px solid #ededed;
+}
+
+#togglePassword:checked ~ .password-section .password-items {
+    gap: 100px;
+}
+
+#togglePassword:checked ~ .password-section .password-items {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}   
+
+#togglePassword:checked ~ .password-section button {
+    margin-top: 15px;
+    color: white;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+    cursor: pointer;
+}
+
+#togglePassword:checked ~ .password-section button:hover {
+    background: linear-gradient(to right, #d56783,#a9415b, #6a0f26);
+}

@@ -1,0 +1,156 @@
+body {
+    font-family: "Georgia", serif;
+    background-repeat: repeat;  
+    background-color:#FFFFFF;
+    color: black !important;
+}
+
+header {
+    padding: 15px;
+    background-color: rgb(255, 255, 255, 0.5);
+    box-shadow: 10px 2px 11px -8px #8a8a8a;
+    backdrop-filter: blur(7px);
+    display: flex;
+    gap: 70px;
+    position: sticky;
+    top:0%;
+    z-index: 1000;
+}
+
+header .nav-links{
+    flex: 1;
+    display: flex;
+    gap: 50px;
+}
+
+header img {
+    width: 160px;
+    height: 50px;
+    object-fit:cover;
+}
+header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black; 
+    display: flex;
+    align-items: center;   
+}
+
+header .nav-links a:hover {
+    color:maroon;
+    border-bottom: 2px solid rgb(176, 7, 7);
+}
+
+header .main-heading {
+    font-size: 32px;
+}
+
+.login-links { 
+    display: flex;
+}
+
+.login-links a:hover {
+    color:maroon;
+}
+
+.footer {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    background-color: #111B21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.information .what-we {
+    display: flex;
+    flex-direction: column;
+}
+
+.information p {
+    color:grey;
+    font-size:12px;
+}
+
+.information a {
+    color: white;
+}
+
+.information a:hover {
+    text-decoration: underline;
+}
+
+.information .quick-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright i {
+    color: white;
+}
+
+.copyright a:hover {
+    text-decoration: none;
+}
+
+.copyright .linkedin:hover {
+    color:#0A66C2;
+}
+
+.copyright .facebook:hover {
+    color:#0866FF;
+}
+
+.copyright .youtube:hover {
+    color:#FF0033;
+}
+
+.copyright .twitter:hover {
+    color:#707070;
+}
+
+.copyright .whatsapp:hover {
+    color:#25D366;
+}
+
+.logo img {
+    width: 180px;
+    height: 65px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.copyright-eventhub {
+    text-align: center;
+}
+
+.copyright p {
+    color: white;
+}
+

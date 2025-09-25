@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-part img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-register {
+    background-color: rgb(255, 255, 255, 0.4);
+    backdrop-filter: blur(3px);         
+    width: 50%;
+    min-height: 70vh;
+    background-color:white;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 5px 5px 15px rgb(107, 107, 107);
+    display: flex;
+    overflow: hidden;
+}
+
+.form-register form{
+    margin-left: 15px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-register h2 {
+    color: maroon;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-register label {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.form-register label:not(:first-of-type) {
+    margin-top: 30px;
+}
+
+.form-register input {             
+    width: 300px;
+    height: 40px;
+    border: none;                  
+    border-bottom: 1px solid black; 
+    background-color: transparent;  
+    outline: none;                 
+    padding: 5px 0; 
+}
+
+.form-register input:focus {
+    border: none;
+    border-bottom: 1px solid maroon;
+}
+
+.button-question {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-register button{
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+    padding: 6px;
+}
+
+.form-register button:hover {
+    background: linear-gradient(to right, #d56783,#d45b7a, #6a0f26);
+}
+
+.form-register a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.form-register a:hover {
+    color: blue;
+}
+
+.errors {
+    width: 90%;
+}
+
+.errors ul {
+    padding-left: 0px !important;
+}
+.errors li {
+    font-size: 14px;
+    list-style: none;
+    background-color: rgb(247, 162, 162);
+    color: rgb(192, 21, 21);
+    margin-top: 2px;
+}
+
+

@@ -1,0 +1,270 @@
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+}
+
+.hero-container {
+    max-width: 1480px;
+}
+
+.hero-image {
+    width: 90%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.hero-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top:30%;
+    left: 10%;
+}
+
+.hero-text h1 {
+    max-width: 450px;
+    font-size: 50px;
+}
+
+.hero-text p {
+    max-width: 415px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.hero-text2 {
+    position: absolute;
+    top:60%;
+    left: 20%;
+}
+
+.hero-text2 a {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+     /* GLASS EFFECT */
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    text-decoration: none;
+
+    /* Subtle shine */
+    box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.2),
+                inset -1px -1px 2px rgba(0, 0, 0, 0.1),
+                0 4px 12px rgba(0, 0, 0, 0.2);
+
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-text2 a:hover {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.5),
+              inset -2px -2px 3px rgba(0, 0, 0, 0.1),
+              0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.second-container {
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.second-container .container {
+    display: flex;
+    gap: 60px;
+}
+
+.second-container h1 {
+    font-size: 3rem;
+}
+
+.second-container .container p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.second-container .container  {
+    align-items: center;
+    justify-content: center;
+}
+
+.second-container .container img {
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    /* border: 3px solid rgb(213, 163, 46);
+    border-radius: 20px; */
+}
+
+.third-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-top: 70px;
+    background-color: #111B21;
+}
+
+.third-container img {
+    transform: scaleX(-1);
+    border-radius: 0% 0% 52% 0%;
+    width:100%;
+}
+
+.third-container .text {
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+
+}
+
+.third-container h3 {
+    font-size: 3rem;
+}
+
+.third-container p {
+    font-size: 16px;
+}
+
+.third-container button {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+     /* GLASS EFFECT */
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    text-decoration: none;
+
+    /* Subtle shine */
+    box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.2),
+                inset -1px -1px 2px rgba(0, 0, 0, 0.1),
+                0 4px 12px rgba(0, 0, 0, 0.2);
+
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.third-container button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.5),
+              inset -2px -2px 3px rgba(0, 0, 0, 0.1),
+              0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.review-container {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-container .review-title {
+    text-align: center;
+}
+
+.review-container .review-title p {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #560CE3;
+}
+
+.review-container .review-title h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.review-container .reviews {
+    height: 400px;
+}
+
+.review-container .reviews .profile-dp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    gap: 10px;
+}
+
+.review-container .reviews i {
+    color: #FFC107;
+}
+
+.review-container .reviews .profile-dp img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review-container .reviews .person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-container .reviews .profile-dp .stars {
+    display: flex;
+}
+
+.review-container .reviews .profile-dp h5 {
+    margin-top: 15px;
+    /* font-size:22px; */
+    font-weight: bold;
+}
+
+.review-container .reviews .profile-dp p {
+    width: 80%;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.review-container .reviews .profile-dp .from {
+    color: grey;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  /* Style the control buttons */
+  .carousel-controls button {
+    width: 4px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray; /* change color if needed */
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-controls button span {
+    filter: invert(1); /* make arrow icons white */
+  }

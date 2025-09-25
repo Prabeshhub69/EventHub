@@ -1,0 +1,35 @@
+.hero {
+    background: url('https://picsum.photos/1200/400?random=9') center/cover no-repeat;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.icon-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.icon-box i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+
+.accordion-item {
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+}
+
+.accordion-button {
+    background-color: transparent;
+}
