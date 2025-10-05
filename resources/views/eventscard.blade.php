@@ -90,8 +90,8 @@
         @endforeach
     </div>
 
-    @else
-    <p>No events are available, stay tuned for upcoming events!!!</p>
+    @else 
+    <p>No events are available, stay tuned for upcoming events!!!</p> {{-- This line is for no events are created or foreachloop is empty --}}
     @endif
 </div>
 
