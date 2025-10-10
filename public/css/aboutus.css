@@ -1,5 +1,5 @@
 .hero {
-    background: url('https://picsum.photos/1200/400?random=9') center/cover no-repeat;
+    background: url('https://picsum.photos/1200/400?random=9') center/cover no-repeat; /*bootstarp picturesfor repeat */
     color: white;
     padding: 100px 0;
     text-align: center;
