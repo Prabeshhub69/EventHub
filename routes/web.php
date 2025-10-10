@@ -53,4 +53,4 @@ Route::middleware('auth')->group(function() {
 // Search events
 Route::get('/eventscard', [EventController::class, 'search'])->name('eventscard.search');
 
-Route::get('/aboutus', [HomeController::class, 'showaboutus'])->name('showaboutus');
+Route::get('/aboutus', [HomeController::class, 'showaboutus'])->name('showaboutus'); //Route to show about us 
