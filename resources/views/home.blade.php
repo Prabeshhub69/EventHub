@@ -36,12 +36,6 @@
     </div>
 </div>
 
-{{-- <div class="container">
-    <div class="card">
-
-    </div>
-</div> --}}
-
 <div class="third-container container-fluid">
     <div class="col-md-4">
         <img src="{{ asset('images/guitaristpng.png') }}">
@@ -53,9 +47,6 @@
             Discover concerts, movies, and events near you.
             Your seat,b  your experience, just a tap away. From live music and theater to workshops and exclusive shows, we bring the world of entertainment to your
             fingertips.</p>
-        <div class="button">
-            <button class="btn">Book Tickets</button>
-        </div>
     </div>
 </div>
 

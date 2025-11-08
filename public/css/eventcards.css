@@ -30,10 +30,13 @@ section::content {
     overflow: hidden;
 }
 
-
 .card:hover {
     transform: scale(1.01);
     box-shadow: 0 4px 8px rgba(128, 0, 0, 0.5);
+}
+
+.card-body {
+    padding: 0px 0px 0px 10px !important;
 }
 
 .event-container {
