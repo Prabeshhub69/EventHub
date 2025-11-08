@@ -1,5 +1,6 @@
 body {
-    background-image:url('/images/seminar.jpg');
+    background-color: #2D2E3A;
+    /* background-image:url('/images/seminar.jpg'); */
     background-size: cover;
     background-position: center;
 }
@@ -23,6 +24,7 @@ section::content {
 }
 
 .card {
+    background-color: #383947;
     height: 500px;
     border-radius: 16px;
     margin-top: 20px;
@@ -32,7 +34,7 @@ section::content {
 
 .card:hover {
     transform: scale(1.01);
-    box-shadow: 0 4px 8px rgba(128, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
 }
 
 .card-body {
@@ -45,11 +47,11 @@ section::content {
 }
 
 .event-container h1 {
-    color: #47060B;
+    color: #ffffff;
 }
 
 .event-container p {
-    color: #9C565B;
+    color: #ffffff;
 }
 
 .card-img-top {
@@ -72,8 +74,8 @@ section::content {
 }          
 
 .price-tag {
-    background-color: wheat;
-    color: maroon;   
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+    color: rgb(255, 255, 255);   
     font-size: 12px;                      
     padding: 5px 10px;                   
     border-radius: 14px;                  
@@ -89,7 +91,8 @@ section::content {
 }
 
 .card-body h5 {
-    color: #47060B; 
+    margin-top: 6px;
+    color: #ffffff; 
 }
 
 .second-container {
@@ -109,7 +112,7 @@ section::content {
 
 .card-body .view-participate-button {
     background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
-    border: 1px solid rgb(205, 204, 204);
+    border: none;
     color: rgb(255, 255, 255);
     font-weight: bold;
     border-radius: 8px;

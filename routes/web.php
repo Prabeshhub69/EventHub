@@ -44,7 +44,7 @@ Route::middleware(['auth', 'admin'])->group(function() {
     Route::get('/events/{event}/participants', [AdminController::class, 'showParticipants'])->name('participants');
 });
 
-// User routess
+// User route
 Route::middleware('auth')->group(function() {
     Route::get('/myevents', [EventController::class,'myEvents'])->name('myevents');
     Route::post('/events/{event}/toggle-participation', [EventController::class, 'toggleParticipation'])->name('events.toggle');

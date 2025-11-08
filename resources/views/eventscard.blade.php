@@ -50,7 +50,7 @@
         </form>
     </div>
 </div>
-<hr style="width: 80%; margin-left: 150px;">
+<hr style="width: 80%; margin-left: 150px; color:white;">
 <div class="event-container container">
     @if($events->count() > 0)
     <div class="row">
@@ -63,7 +63,7 @@
                 <div class="card-body">
                     <h5 class="title card-title">{{ $event->title }}</h5>
                     <p class="description card-text">{{ $event->description }}</p>
-                    <p class="category card-texta"><strong>Category:</strong>{{ $event->category}}</p>
+                    <p class="category card-texta"><strong>Category:</strong> {{ $event->category}}</p>
                     <p class="date card-text"><strong>Date:</strong> {{ $event->date }}</p>
                     <p class="time card-text"><strong>Time:</strong> {{ $event->time }}</p>
                     <p class="location card-text"><strong>Location:</strong> {{ $event->location }}</p>
