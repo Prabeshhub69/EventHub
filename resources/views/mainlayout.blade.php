@@ -43,7 +43,7 @@
             <img src="{{ asset('images/logowhite.png') }}">
           </div>
       </div>
-      
+           
       <div class="information col-md-4">
         <div class="what-we">
           <p>What we do</p>

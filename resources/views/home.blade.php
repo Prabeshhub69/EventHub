@@ -139,7 +139,6 @@
     </div>
 </div>
 
-<div class="gallery container">
 
 </div>
 @endsection
